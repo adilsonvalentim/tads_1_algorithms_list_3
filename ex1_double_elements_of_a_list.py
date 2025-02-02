@@ -1,40 +1,19 @@
-'''1. Dobrar elementos de uma lista (com map)
-Escreva uma função que, utilizando map e uma função lambda, receba uma lista
-de números inteiros e retorne uma nova lista com todos os elementos dobrados.
-Exemplo de entrada: [1, 2, Exemplo de saída: [2, 4, 6, 8]'''
+'''
+PURPOSE:
+1. Double elements of a list (using map)
+Write a function that, using map and a lambda function, takes a list of integers and returns a new list with all elements doubled.
+Example input: [1, 2, 3, 4]
+Example output: [2, 4, 6, 8]
+'''
 
 def presentation():
-    """
-    Show the name of the program
-
-    Prints a formatted title of the program, which
-    doubles the elements of a list.
-    """
     print('\n* * * PROGRAM TO DOUBLE ELEMENTS OF A LIST * * *')
 
 def ask_name():
-    """
-    Prompt the user to enter their name.
-
-    Asks the user for their name via input
-    and returns it as a string.
-
-    Returns:
-        str: The name entered by the user.
-    """
     name = input('\nPlease user, input your name: ')
     return name
 
 def introduction(name: str):
-    """
-    Provide an introduction to the program.
-
-    This function explains to the user, via a printed message,
-    how the program works and how to interact with it.
-
-    Args:
-        name (str): The name of the user, as entered earlier.
-    """
     print(
         f'\nWelcome {name}! In this program you will enter as many integers as you want and you '
         '\nwill receive a list of these duplicate numbers. Enter "e" when you want to end the '
@@ -42,16 +21,6 @@ def introduction(name: str):
     )
 
 def receive_integers():
-    """
-    Prompt the user to input integers and return them as a list.
-
-    This function repeatedly asks the user to input integers until they
-    enter "e" to signal the end. The integers are collected in a list
-    and returned once the input process is complete.
-
-    Returns:
-        list: A list containing the integers entered by the user.
-    """
     user_insertion = ''
     integers = []
     
