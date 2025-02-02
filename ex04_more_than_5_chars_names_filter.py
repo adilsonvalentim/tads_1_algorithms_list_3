@@ -7,7 +7,8 @@ Example output: ["Lucas", "Fernanda"]
 '''
 
 def more_than_5_chars_filter(name_list: list) -> list:
-    """Filters the names that have more than 5 characters in a list.
+    """
+    Filters the names that have more than 5 characters in a list.
 
     Args:
         name_list (list): A list of names to be filtered.

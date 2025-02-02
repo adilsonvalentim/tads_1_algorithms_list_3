@@ -7,7 +7,8 @@ Example output: [2, 4]
 '''
 
 def even_numbers_filter(numbers_list: list) -> list:
-    """Filter even numbers in an integer list.
+    """
+    Filter even numbers in an integer list.
 
     Filter even numbers in an integer list via filter and lambda,
     then returns the even numbers list.

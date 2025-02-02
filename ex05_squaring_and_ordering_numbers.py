@@ -1,12 +1,13 @@
 '''
-5. Elevar números ao quadrado e ordenar (com map e sorted)
-Crie uma função que eleve ao quadrado todos os números de uma lista, utilizando
-map, e depois retorne a lista ordenada.
-Exemplo de entrada: [3, 1, 4, 2]
-Exemplo de saída: [1, 4, 9, 16]
+PURPOSE:
+5. Square numbers and sort (with map and sorted)
+Create a function that squares all the numbers in a list, using map, and then returns the sorted list.
+Example input: [3, 1, 4, 2]
+Example output: [1, 4, 9, 16]
 '''
 def squaring_and_ordering(nums_list: list) -> list:
-    """Squares each number in a list and returns them in ascending order.
+    """
+    Squares each number in a list and returns them in ascending order.
 
     Args:
         nums_list (list): A list of float numbers to be squared and ordered.

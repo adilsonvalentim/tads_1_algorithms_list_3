@@ -9,7 +9,8 @@ Example output: 10
 from functools import reduce
 
 def sum_integers(int_list: list) -> int:
-    """Sums all integers in the given list.
+    """
+    Sums all integers in the given list.
 
     Args:
         int_list (list): A list of integers to be summed.
