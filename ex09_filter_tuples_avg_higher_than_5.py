@@ -5,10 +5,12 @@ Write a function that receives a list of tuples, where each tuple contains integ
 Example input: [(2, 8), (4, 5, 6), (1, 2)]
 Example output: [(2, 8), (4, 5, 6)]
 '''
+
 from functools import reduce
 
 def filter_tuples_avg_higher_than_5(tuples_list: list) -> list:
-    """Filters the tuples in list where the average of their elements is higher than 5.
+    """
+    Filters the tuples in list where the average of their elements is higher than 5.
 
     Args:
         tuples_list (list): A list of tuples, each containing integers values.

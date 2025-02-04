@@ -10,8 +10,6 @@ Example input: [1, -2, 0, 3, -5, 0]
 Example output: {"positives": [1, 3], "negatives": [-2, -5], "zeros": [0, 0]}
 '''
 
-
-
 def categorizes_nums(nums_list: list) -> dict:
     """
     Categorizes integers in the list into positives, negatives and zeros in a dictionary.

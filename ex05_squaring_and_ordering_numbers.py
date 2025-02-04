@@ -5,6 +5,7 @@ Create a function that squares all the numbers in a list, using map, and then re
 Example input: [3, 1, 4, 2]
 Example output: [1, 4, 9, 16]
 '''
+
 def squaring_and_ordering(nums_list: list) -> list:
     """
     Squares each number in a list and returns them in ascending order.

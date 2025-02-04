@@ -5,6 +5,7 @@ Create a function that receives a list of words and returns the total sum of let
 Example input: ["casa", "python", "lambda"]
 Example output: 16
 '''
+
 from functools import reduce
 
 def letters_counter_in_list(words_list: list) -> int:
